@@ -1,0 +1,61 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url(../Imagenes/Planeta.jpg) no-repeat center top;
+	background-size: cover;
+	font-family: sans-serif;
+	height: 100vh;
+}
+
+.noticia label{
+	position: relative;
+	left: 465px;
+	top: 100px;
+	font-weight: bold;
+	color: white;
+	font-size: 180%;
+	
+}
+
+.noticia input[type= "text"]{
+	position: relative;
+	border-bottom: 1px solid #fff;
+	outline: none;
+	height: 45px;
+	color: blue;
+	font-size: 25px;
+	left: 180px;
+	top: 150px;
+}
+
+.noticia input[type = "button"]{
+	position: relative;
+	top: 150px;
+	left: 475px;
+	border: 0px;
+	outline: none;
+	width: 250px;
+	height: 60px;
+	background: violet;
+	color: #fff;
+	font-size: 25px;
+	font-weight:bold;
+	font-family:Verdana,Helvetica;
+	border-radius: 100px;
+}
+
+.noticia2 input[type = "button"]{
+	position: relative;
+	top: -120px;
+	left: 10px;
+	border: 0px;
+	outline: none;
+	width: 250px;
+	height: 60px;
+	background: brown;
+	color: #fff;
+	font-size: 25px;
+	font-weight:bold;
+	font-family:Verdana,Helvetica;
+	border-radius: 100px;
+}

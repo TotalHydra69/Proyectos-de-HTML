@@ -1,0 +1,78 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url(../Imagenes/Login.jpg) no-repeat center top;
+	background-size: cover;
+	font-family: sans-serif;
+	height: 100vh;
+}
+
+.Cambia{
+	width: 350px;
+	height: 475px;
+	background: #000;
+	color: #fff;
+	top: 66%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 70px 38px; 
+}
+
+.Cambia .Avatar{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: calc(50% - 50px); 
+}
+
+.Cambia label{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	display: block;
+	color: white;
+}
+
+.Cambia input{
+	width: 100%;
+	margin-bottom: 20px;
+
+}
+
+.Cambia input[type="text"],
+.Cambia input[type="password"]{
+border: none;
+border-bottom: 1px solid #fff;
+background: transparent;
+outline: none;
+height: 40px;
+color: white;
+font-size: 16px;
+}
+
+.Cambia input[type="button"]{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #b80f22;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+}
+
+.Cancelar input[type="button"]{
+	border: none;
+	outline: none;
+	height: 80px;
+	background: #b80f22;
+	color: #fff;
+	font-size: 50px;
+	border-radius: 50px;
+	position: absolute;
+	top: 50px;
+}
+

@@ -1,0 +1,42 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url(../Imagenes/Planeta.jpg);
+	background-size: cover;
+	font-family: sans-serif;
+	height: 100vh;
+}
+
+.Primera-Parte .Logo{
+	width: 150px;
+	height: 150px;
+	border-radius: 5%;
+	position: absolute;
+	top: 10px;
+	left: calc(10% - 80px); 
+}
+
+.Primera-Parte label{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	display: block;
+}
+
+
+.Primera-Parte h1{
+	color: red;
+	margin: 0;
+	padding: 0 0 50px;
+	text-align: center;
+	font-size: 50px;
+}
+
+.Primera-Parte img{
+	width: 150px;
+	height: 150px;
+	border-radius: 5%;
+	position: absolute;
+	top: 6px;
+	left: calc(91% - 80px); 
+}

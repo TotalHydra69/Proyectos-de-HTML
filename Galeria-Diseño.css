@@ -1,0 +1,76 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url(../Imagenes/Paisaje.jpg);
+	background-size: cover;
+	font-family: sans-serif;
+	height: 100vh;
+}
+
+.Galeria input[type="button"]{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #b80f22;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+}
+
+.Galeria label{
+	position: relative;
+	left: 620px;
+	top: 15px;
+	font-weight: bold;
+	color: white;
+	font-size: 250%;	
+}
+
+.Galeria table{
+	border-collapse: separate;
+	border-spacing: 5px;
+	position: absolute;
+	top: 70px;
+	left: 100px;
+	width: 75%;
+	height: 75%;
+}
+
+.Galeria table, th,td,tr{
+
+	border: 1px solid black;	
+	font-size: 19px;
+}
+
+.Galeria th{
+	background-color: red;
+    color: black;
+}
+
+.Galeria tr{
+	background-color: white; 
+	color: black;
+}
+
+.Galeria td{
+	color: red;
+	text-align: justify;
+	width: 10%;
+	
+}
+
+div.Galeria2 img{
+	height: 150px;
+	width: 350px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.Galeria {
+	padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+

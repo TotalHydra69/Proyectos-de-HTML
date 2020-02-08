@@ -1,0 +1,72 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url(../Imagenes/Planeta.jpg) no-repeat center top;
+	background-size: cover;
+	font-family: sans-serif;
+	height: 100vh;
+}
+
+.Registro-Box{
+	width: 350px;
+	height: 510px;
+	background: black;
+	color: white;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 70px 38px;
+}
+
+.Registro-Box .Imagen1{
+	width: 100px;
+	height: 100px;
+	border-radius: 70%;
+	position: absolute;
+	top: -50px;
+	left: calc(50% - 50px);
+}
+
+.Registro-Box h1{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+
+}
+
+.Registro-Box label{
+
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	display: block;
+}
+
+.Registro-Box input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.Registro-Box input[type="text"],
+.Registro-Box input[type="password"]{
+border: none;
+border-bottom: 1px solid #fff;
+background: transparent;
+outline: none;
+height: 40px;
+color: blue;
+font-size: 16px;
+}
+
+.Registro-Box input[type="button"]{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #b80f22;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+}

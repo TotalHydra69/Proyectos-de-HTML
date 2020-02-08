@@ -1,0 +1,64 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url(../Imagenes/Paisaje.jpg);
+	background-size: cover;
+	font-family: sans-serif;
+	height: 100vh;
+}
+
+.Comentarios label{
+	position: relative;
+	left: 550px;
+	top: 400px;
+	font-weight: bold;
+	color: white;
+	font-size: 180%;	
+}
+
+.Comentarios input[type="text"]{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: white;
+	outline: none;
+	height: 40px;
+	color: red;
+	font-size: 16px;
+	position: absolute;
+	left: 410px;
+	top: 440px;
+	width: 600px;
+}
+
+.Comentarios input[type="button"]{
+	border: none;
+	outline: none;
+	height: 60px;
+	background: #b80f22;
+	color: #fff;
+	font-size: 50px;
+	border-radius: 20px;
+	position: absolute;
+	left: 600px;
+	top: 500px;
+}
+
+.Comentarios img{
+	height: 300px;
+	width: 600px;
+	left: 400px;
+	top: 80px;
+	position: absolute;
+	padding: 0 6px;
+    float: left;
+    
+}
+
+.Comentarios2 {
+	position: absolute;
+	left: 570px;
+	top: 15px;
+	font-weight: bold;
+	color: white;
+	font-size: 250%;	
+}

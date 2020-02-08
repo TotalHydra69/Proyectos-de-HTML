@@ -1,0 +1,67 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url(../Imagenes/Paisaje.jpg);
+	background-size: cover;
+	font-family: sans-serif;
+	height: 100vh;
+
+}
+
+.mostrar img{
+	position: absolute;
+	height: 480px;
+	width: 750px;
+	left: 280px;
+	top: 70px;
+}
+
+.mostrar label{
+	position: absolute;
+	left: 520px;
+	top: 20px;
+	font-weight: bold;
+	color: white;
+	font-size: 250%;
+}
+.mostrar2 label{
+	position: absolute;
+	left: 520px;
+	top: 600px;
+	font-weight: bold;
+	color: white;
+	font-size: 250%;
+}
+
+.mostrar2 table{
+	border-collapse: separate;
+	border-spacing: 5px;
+	position: absolute;
+	top: 650px;
+	left: 150px;
+	width: 75%;
+	height: 75%;
+}
+
+.mostrar2 table, th,td,tr{
+
+	border: 1px solid black;	
+	font-size: 19px;
+}
+
+.mostrar2 th{
+	background-color: red;
+    color: black;
+}
+
+.mostrar2 tr{
+	background-color: white; 
+	color: black;
+}
+
+.mostrar2 td{
+	color: red;
+	text-align: justify;
+	width: 10%;
+}
+

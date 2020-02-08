@@ -1,0 +1,41 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url(../Imagenes/Planeta.jpg) no-repeat center top;
+	background-size: cover;
+	font-family: sans-serif;
+	height: 100vh;
+}
+
+table{
+	border-collapse: separate;
+	border-spacing: 5px;
+	position: absolute;
+	top: 70px;
+	left: 150px;
+	width: 75%;
+	height: 75%;
+}
+
+table, th,td,tr{
+
+	border: 1px solid black;	
+}
+
+th{
+	background-color: red;
+    color: black;
+}
+
+tr{
+	background-color: white; 
+	color: black;
+}
+
+label{
+	position: absolute;
+	top: 10px;
+	left: 395px;
+	font-size: 250%;
+	color: white;
+}

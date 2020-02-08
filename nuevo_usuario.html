@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registro</title>
+	<script type="text/javascript">
+		function Registrarse()
+		{
+			if (document.getElementById('txtCorreo').value == ""){
+				alert("Falta Colocar Correo");
+				document.getElementById('txtCorreo').style.borderColor = "red";
+			}
+			if (document.getElementById('txtContraseña').value == ""){
+				alert("Falta Contraseña");
+				document.getElementById('txtContraseña').style.borderColor = "red";
+			}
+			if (document.getElementById('txtConfirmar').value == ""){
+				alert('Falta Confirmar Contraseña');
+				document.getElementById('txtConfirmar').style.borderColor = "red";
+			}
+			if (document.getElementById('txtNombre').value == ""){
+				alert('Falta su Nombre');
+				document.getElementById('txtNombre').style.borderColor = "red";
+			}
+
+			if (document.getElementById('txtCorreo').value != ""){
+				document.getElementById('txtCorreo').style.borderColor = "white";
+			}
+			if (document.getElementById('txtContraseña').value != ""){
+				document.getElementById('txtContraseña').style.borderColor = "white";
+			}
+			if (document.getElementById('txtConfirmar').value != ""){
+				document.getElementById('txtConfirmar').style.borderColor = "white";
+			}
+			if (document.getElementById('txtNombre').value != ""){
+				document.getElementById('txtNombre').style.borderColor = "white";
+				document.getElementById("Nuevo_Usuario").submit();
+			}
+		}
+	</script>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<link rel="stylesheet" href="css/Registro.css">
+</head>
+<body>
+	<div class="Registro-Box">
+		<img class="Imagen1" src="Imagenes/logo.jpg" alt="Futbol">
+		<h1>Registro</h1>
+		<form id="Nuevo_Usuario" name="Nuevo_Usuario" method="POST" action="nuevo_usuario.php">
+		<label for="Correo">Correo:</label>
+		<input type="text" id="txtCorreo" name="txtCorreo" placeholder="Coloque el correo" \>
+		<label for="Contraseña">Contraseña:</label>
+		<input type="password" id="txtContraseña" name="txtContraseña" placeholder="Coloque su contraseña" \>
+		<label for="Confirmar">Confirmar Contraseña:</label>
+		<input type="password" id="txtConfirmar" name="txtConfirmar"\ placeholder="Confirme su contraseña">
+		<label for="Nombre">Nombre:</label>
+		<input type="text" id="txtNombre" name="txtNombre" placeholder="Coloque su Nombre" \>
+
+		<input type="button" id="btnRegistrar" name="btnRegistrar" value="Registrarse" onclick="Registrarse();" \>
+	</div>
+</form>
+</body>
+</html>

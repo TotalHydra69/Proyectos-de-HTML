@@ -1,0 +1,67 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<script type="text/javascript">
+			function verificar()
+			{
+			if(document.getElementById('txtCorreo').value == "")
+			{
+				alert("Falta Correo");
+				document.getElementById("txtCorreo").style.borderColor="red";
+
+				
+			}
+			if(document.getElementById('txtContraseña').value == "")
+			{
+				alert("Falta Contraseña");
+				document.getElementById("txtContraseña").style.borderColor="red"; 
+				
+			}
+			if(document.getElementById('txtCorreo').value != "")
+			{
+				document.getElementById('txtCorreo').style.borderColor="white";
+
+			}
+			if(document.getElementById('txtContraseña').value != "")
+			{
+				document.getElementById('txtContraseña').style.borderColor="white";
+				document.getElementById("ingreso").submit();
+			}
+		}
+		function validar(e) {
+  			tecla = (document.all) ? e.keyCode : e.which;
+  			if (tecla==13) {
+  				verificar();
+  				}
+		}
+
+		</script>
+		<title>Inicio de Sesion</title>
+		<link rel="stylesheet" href="css/login.css">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		
+	</head>
+	<body>
+		<div class="login-box">
+			<img class="Avatar" src="img/" alt="Logo_Santander">
+			<h1>Liga BBVA Santander</h1>
+			<form id="ingreso" name="ingreso" method="POST" action="validar.php">
+				<!-- Aqui va para poner los Datos-->
+				<label for="usuarios">Usuario</label>
+				<input type="text" id="txtCorreo" placeholder=" Coloque su Usuario" name="txtCorreo" required minlength="8" maxlength="18" \>
+				<span class="validity"></span>
+
+				<!--Aqui va para poner la Contrasena -->
+				<label for="Contraseñas">Contraseña</label>
+				<input type="password" id="txtContraseña" placeholder="Coloque su Contraseña" name="txtContraseña" onkeypress="validar(event)" \>
+
+				<!-- Aqui va para poner el boton -->
+				<input type="button" value="Entrar" onclick="verificar();" \>
+
+				<!--Aqui va para los enlaces -->
+				<a href="nuevo_usuario.html" target="_blank">Registrarse</a>
+
+			</form>
+		</div>
+	</body>
+	</html>
